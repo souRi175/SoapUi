@@ -24,32 +24,23 @@
 
 <!--</project>-->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>SoapUi</groupId>
-    <artifactId>SoapUiprohet</artifactId>
-    <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>SmartBearPluginRepository</id>
-            <url>http://www.soapui.org/repository/maven2/</url>
-        </pluginRepository>
-    </pluginRepositories>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>eviware</groupId>
-                <artifactId>soapui-pro-maven-plugin</artifactId>
-                <version>4.6.1</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.6</version>
-                    </dependency>
-                </dependencies>    
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SoapUi</groupId>
+  <artifactId>SoapUiprohet</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <pluginRepositories>
+    <pluginRepository>
+        <id>smartbear-sweden-plugin-repository</id>
+        <url>http://www.soapui.org/repository/maven2/</url>
+  </pluginRepository>
+</pluginRepositories>
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>eviware</groupId>
+      <artifactId>maven-soapui-plugin</artifactId>
+      <version>5.5.0</version>
                 <executions>
                     <execution>
                         <phase>test</phase>
@@ -64,7 +55,8 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-        </plugins>
-    </build>
+    </plugin>
+  </plugins>
+</build>
+
 </project>
