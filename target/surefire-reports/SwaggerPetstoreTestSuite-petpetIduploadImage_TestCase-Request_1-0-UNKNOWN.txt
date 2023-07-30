@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 4744
+Time Taken: 907
 Size: 181
-Timestamp: Sun Jul 30 16:50:38 CEST 2023
+Timestamp: Sun Jul 30 17:38:35 CEST 2023
 TestStep: Request 1
 
 ----------------- Messages ------------------------------
@@ -38,7 +38,7 @@ Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
 Connection: [keep-alive]
 #status#: [HTTP/1.1 404 Not Found]
 Content-Length: [181]
-Date: [Sun, 30 Jul 2023 14:50:45 GMT]
+Date: [Sun, 30 Jul 2023 15:38:36 GMT]
 Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
 Content-Type: [application/xml]
 

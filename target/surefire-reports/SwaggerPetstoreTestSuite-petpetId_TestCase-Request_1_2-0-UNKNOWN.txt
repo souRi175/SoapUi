@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 329
+Time Taken: 206
 Size: 102
-Timestamp: Sun Jul 30 16:51:42 CEST 2023
+Timestamp: Sun Jul 30 17:38:39 CEST 2023
 TestStep: Request 1 2
 
 ----------------- Messages ------------------------------
@@ -38,7 +38,7 @@ Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
 Connection: [keep-alive]
 #status#: [HTTP/1.1 405 Method Not Allowed]
 Content-Length: [102]
-Date: [Sun, 30 Jul 2023 14:51:42 GMT]
+Date: [Sun, 30 Jul 2023 15:38:40 GMT]
 Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
 Content-Type: [application/xml]
 

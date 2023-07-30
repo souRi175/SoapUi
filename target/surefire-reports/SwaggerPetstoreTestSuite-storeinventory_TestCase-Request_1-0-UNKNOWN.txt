@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 437
-Size: 97
-Timestamp: Sun Jul 30 16:51:46 CEST 2023
+Time Taken: 204
+Size: 121
+Timestamp: Sun Jul 30 17:38:41 CEST 2023
 TestStep: Request 1
 
 ----------------- Messages ------------------------------
@@ -34,8 +34,8 @@ Access-Control-Allow-Origin: [*]
 Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
 Connection: [keep-alive]
 #status#: [HTTP/1.1 200 OK]
-Date: [Sun, 30 Jul 2023 14:51:46 GMT]
+Date: [Sun, 30 Jul 2023 15:38:42 GMT]
 Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
 Content-Type: [application/json]
 
-{"sold":2,"approved":1,"string":746,"pending":1,"available":210,"W7ZdYw9rbs":1,"Not available":1}
+{"sold":3,"string":756,"pending":2,"{{PetStatus}}":1,"available":196,"W7ZdYw9rbs":1,"zxczxcvailable":1,"Not available":1}

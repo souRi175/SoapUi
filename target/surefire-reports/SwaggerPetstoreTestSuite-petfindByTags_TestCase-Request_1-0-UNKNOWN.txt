@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 324
-Size: 2
-Timestamp: Sun Jul 30 16:51:39 CEST 2023
+Time Taken: 165
+Size: 107
+Timestamp: Sun Jul 30 17:38:38 CEST 2023
 TestStep: Request 1
 
 ----------------- Messages ------------------------------
@@ -34,8 +34,8 @@ Access-Control-Allow-Origin: [*]
 Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
 Connection: [keep-alive]
 #status#: [HTTP/1.1 200 OK]
-Date: [Sun, 30 Jul 2023 14:51:40 GMT]
+Date: [Sun, 30 Jul 2023 15:38:39 GMT]
 Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
 Content-Type: [application/json]
 
-[]
+[{"id":1,"category":{"id":1,"name":""},"name":"","photoUrls":[""],"tags":[{"id":1,"name":""}],"status":""}]

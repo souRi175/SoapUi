@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 152
+Time Taken: 318
 Size: 78
-Timestamp: Sun Jul 30 16:51:49 CEST 2023
+Timestamp: Sun Jul 30 17:38:44 CEST 2023
 TestStep: Request 1
 
 ----------------- Messages ------------------------------
@@ -34,10 +34,10 @@ Server: [Jetty(9.2.9.v20150224)]
 Access-Control-Allow-Origin: [*]
 Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
 Connection: [keep-alive]
-X-Expires-After: [Sun Jul 30 15:51:49 UTC 2023]
+X-Expires-After: [Sun Jul 30 16:38:44 UTC 2023]
 #status#: [HTTP/1.1 200 OK]
-Date: [Sun, 30 Jul 2023 14:51:49 GMT]
+Date: [Sun, 30 Jul 2023 15:38:44 GMT]
 Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
 Content-Type: [application/json]
 
-{"code":200,"type":"unknown","message":"logged in user session:1690728709470"}
+{"code":200,"type":"unknown","message":"logged in user session:1690731524666"}

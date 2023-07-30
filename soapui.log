@@ -1,7 +1,7 @@
-2023-07-30 16:50:36,708 WARN  [SoapUI] Missing folder [C:\Users\User\eclipse-workspace\SoapUiprohet\ext] for external libraries
-2023-07-30 16:50:36,810 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\User\soapui-settings.xml]
-2023-07-30 16:50:37,082 ERROR [SoapUI] An error occurred [The plugin 'C:\Users\User\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.], see error log for details
-2023-07-30 16:50:37,083 ERROR [errorlog] java.lang.SecurityException: The plugin 'C:\Users\User\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.
+2023-07-30 17:38:32,990 WARN  [SoapUI] Missing folder [C:\Users\User\eclipse-workspace\SoapUiprohet\ext] for external libraries
+2023-07-30 17:38:33,139 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\User\soapui-settings.xml]
+2023-07-30 17:38:33,365 ERROR [SoapUI] An error occurred [The plugin 'C:\Users\User\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.], see error log for details
+2023-07-30 17:38:33,368 ERROR [errorlog] java.lang.SecurityException: The plugin 'C:\Users\User\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.
 java.lang.SecurityException: The plugin 'C:\Users\User\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.
 	at com.eviware.soapui.plugins.ProductBodyguard$JarVerifier.verify(ProductBodyguard.java:123)
 	at com.eviware.soapui.plugins.ProductBodyguard.isKnown(ProductBodyguard.java:55)
@@ -13,14 +13,14 @@ java.lang.SecurityException: The plugin 'C:\Users\User\.soapuios\plugins\ready-u
 	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:192)
 	at com.eviware.soapui.maven2.TestMojo.execute(TestMojo.java:114)
 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:342)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:330)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:213)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:175)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:76)
-	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:163)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:328)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:316)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:174)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:75)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:162)
 	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:160)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:159)
 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
@@ -28,20 +28,20 @@ java.lang.SecurityException: The plugin 'C:\Users\User\.soapuios\plugins\ready-u
 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:827)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:272)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:195)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:906)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
-2023-07-30 16:50:37,084 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
-2023-07-30 16:50:37,170 INFO  [PluginManager] Adding plugin from [C:\Users\User\.soapuios\plugins\readyapi-postman-1.0.1.jar]
-2023-07-30 16:50:37,549 WARN  [PluginManager] Could not load plugin from file [C:\Users\User\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+2023-07-30 17:38:33,397 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
+2023-07-30 17:38:33,542 INFO  [PluginManager] Adding plugin from [C:\Users\User\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2023-07-30 17:38:34,075 WARN  [PluginManager] Could not load plugin from file [C:\Users\User\.soapuios\plugins\readyapi-postman-1.0.1.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.postman.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
@@ -65,8 +65,8 @@ Caused by: org.reflections.ReflectionsException: could not get type for name com
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
 	... 12 more
-2023-07-30 16:50:37,550 INFO  [PluginManager] Adding plugin from [C:\Users\User\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
-2023-07-30 16:50:37,854 WARN  [PluginManager] Could not load plugin from file [C:\Users\User\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2023-07-30 17:38:34,076 INFO  [PluginManager] Adding plugin from [C:\Users\User\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2023-07-30 17:38:34,458 WARN  [PluginManager] Could not load plugin from file [C:\Users\User\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.mqttsupport.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
@@ -90,18 +90,18 @@ Caused by: org.reflections.ReflectionsException: could not get type for name com
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
 	... 12 more
-2023-07-30 16:50:37,855 INFO  [PluginManager] 2 plugins loaded in 686 ms
-2023-07-30 16:50:37,855 INFO  [DefaultSoapUICore] All plugins loaded
-2023-07-30 16:50:38,222 INFO  [WsdlProject] Loaded project from [file:/C:/Users/User/eclipse-workspace/SoapUiprohet/soapuiProject.xml]
-2023-07-30 16:50:38,225 INFO  [SoapUITestCaseRunner] Setting project property [property1] to [fromMaven1]
-2023-07-30 16:50:38,226 INFO  [SoapUITestCaseRunner] Setting project property [property2] to [fromMaven1]
-2023-07-30 16:50:38,226 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [PetStore]
-2023-07-30 16:50:38,226 INFO  [SoapUITestCaseRunner] Running Project [PetStore], runType = SEQUENTIAL
-2023-07-30 16:50:38,237 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/{petId}/uploadImage TestCase]
-2023-07-30 16:50:38,240 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:50:41,882 ERROR [SoapUI] An error occurred [class org.apache.commons.beanutils.PropertyUtilsBean cannot access class sun.security.ssl.SSLSocketImpl (in module java.base) because module java.base does not export sun.security.ssl to unnamed module @5c931134], see error log for details
-2023-07-30 16:50:41,882 ERROR [errorlog] java.lang.IllegalAccessException: class org.apache.commons.beanutils.PropertyUtilsBean cannot access class sun.security.ssl.SSLSocketImpl (in module java.base) because module java.base does not export sun.security.ssl to unnamed module @5c931134
-java.lang.IllegalAccessException: class org.apache.commons.beanutils.PropertyUtilsBean cannot access class sun.security.ssl.SSLSocketImpl (in module java.base) because module java.base does not export sun.security.ssl to unnamed module @5c931134
+2023-07-30 17:38:34,460 INFO  [PluginManager] 2 plugins loaded in 919 ms
+2023-07-30 17:38:34,463 INFO  [DefaultSoapUICore] All plugins loaded
+2023-07-30 17:38:35,060 INFO  [WsdlProject] Loaded project from [file:/C:/Users/User/eclipse-workspace/SoapUiprohet/soapuiProject.xml]
+2023-07-30 17:38:35,064 INFO  [SoapUITestCaseRunner] Setting project property [property1] to [fromMaven1]
+2023-07-30 17:38:35,066 INFO  [SoapUITestCaseRunner] Setting project property [property2] to [fromMaven1]
+2023-07-30 17:38:35,067 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [PetStore]
+2023-07-30 17:38:35,067 INFO  [SoapUITestCaseRunner] Running Project [PetStore], runType = SEQUENTIAL
+2023-07-30 17:38:35,076 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/{petId}/uploadImage TestCase]
+2023-07-30 17:38:35,089 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:35,655 ERROR [SoapUI] An error occurred [class org.apache.commons.beanutils.PropertyUtilsBean cannot access class sun.security.ssl.SSLSocketImpl (in module java.base) because module java.base does not export sun.security.ssl to unnamed module @9f1ca74], see error log for details
+2023-07-30 17:38:35,655 ERROR [errorlog] java.lang.IllegalAccessException: class org.apache.commons.beanutils.PropertyUtilsBean cannot access class sun.security.ssl.SSLSocketImpl (in module java.base) because module java.base does not export sun.security.ssl to unnamed module @9f1ca74
+java.lang.IllegalAccessException: class org.apache.commons.beanutils.PropertyUtilsBean cannot access class sun.security.ssl.SSLSocketImpl (in module java.base) because module java.base does not export sun.security.ssl to unnamed module @9f1ca74
 	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
 	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
@@ -136,53 +136,54 @@ java.lang.IllegalAccessException: class org.apache.commons.beanutils.PropertyUti
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-07-30 16:50:46,608 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/{petId}/uploadImage TestCase], time taken: 4744ms, status: FINISHED
-2023-07-30 16:50:46,609 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet TestCase]
-2023-07-30 16:50:46,609 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:50:51,685 INFO  [SoapUITestCaseRunner] running step [Request 2]
-2023-07-30 16:50:57,267 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
-2023-07-30 16:51:16,905 INFO  [SoapUITestCaseRunner] running step [Request 2 1]
-2023-07-30 16:51:37,459 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet TestCase], time taken: 24109ms, status: FINISHED
-2023-07-30 16:51:37,459 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/findByStatus TestCase]
-2023-07-30 16:51:37,459 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:39,798 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/findByStatus TestCase], time taken: 540ms, status: FINISHED
-2023-07-30 16:51:39,799 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/findByTags TestCase]
-2023-07-30 16:51:39,799 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:40,573 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/findByTags TestCase], time taken: 324ms, status: FINISHED
-2023-07-30 16:51:40,574 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/{petId} TestCase]
-2023-07-30 16:51:40,574 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:41,712 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
-2023-07-30 16:51:42,636 INFO  [SoapUITestCaseRunner] running step [Request 1 2]
-2023-07-30 16:51:43,142 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/{petId} TestCase], time taken: 1724ms, status: FINISHED
-2023-07-30 16:51:43,143 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/store/order TestCase]
-2023-07-30 16:51:43,143 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:44,159 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/store/order TestCase], time taken: 329ms, status: FINISHED
-2023-07-30 16:51:44,160 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/store/order/{orderId} TestCase]
-2023-07-30 16:51:44,160 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:44,906 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
-2023-07-30 16:51:46,327 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/store/order/{orderId} TestCase], time taken: 962ms, status: FINISHED
-2023-07-30 16:51:46,327 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/store/inventory TestCase]
-2023-07-30 16:51:46,327 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:47,266 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/store/inventory TestCase], time taken: 437ms, status: FINISHED
-2023-07-30 16:51:47,267 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/createWithArray TestCase]
-2023-07-30 16:51:47,267 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:47,703 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/createWithArray TestCase], time taken: 149ms, status: FINISHED
-2023-07-30 16:51:47,704 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/createWithList TestCase]
-2023-07-30 16:51:47,704 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:48,124 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/createWithList TestCase], time taken: 156ms, status: FINISHED
-2023-07-30 16:51:48,124 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/{username} TestCase]
-2023-07-30 16:51:48,124 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:48,494 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
-2023-07-30 16:51:48,794 INFO  [SoapUITestCaseRunner] running step [Request 1 2]
-2023-07-30 16:51:49,159 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/{username} TestCase], time taken: 466ms, status: FINISHED
-2023-07-30 16:51:49,159 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/login TestCase]
-2023-07-30 16:51:49,160 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:49,463 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/login TestCase], time taken: 152ms, status: FINISHED
-2023-07-30 16:51:49,464 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/logout TestCase]
-2023-07-30 16:51:49,464 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:49,763 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/logout TestCase], time taken: 150ms, status: FINISHED
-2023-07-30 16:51:49,764 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user TestCase]
-2023-07-30 16:51:49,764 INFO  [SoapUITestCaseRunner] running step [Request 1]
-2023-07-30 16:51:50,063 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user TestCase], time taken: 148ms, status: FINISHED
-2023-07-30 16:51:50,063 INFO  [SoapUITestCaseRunner] Project [PetStore] finished with status [FINISHED] in 71835ms
-2023-07-30 16:51:50,075 WARN  [Tools] Could not delete temporary directory C:\Users\User\AppData\Local\Temp\e66d1b75-1b4d-4e35-81ea-3e4d4fb1c408
+2023-07-30 17:38:36,544 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/{petId}/uploadImage TestCase], time taken: 907ms, status: FINISHED
+2023-07-30 17:38:36,548 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet TestCase]
+2023-07-30 17:38:36,548 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:36,968 INFO  [SoapUITestCaseRunner] running step [Request 2]
+2023-07-30 17:38:37,455 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
+2023-07-30 17:38:37,827 INFO  [SoapUITestCaseRunner] running step [Request 2 1]
+2023-07-30 17:38:38,231 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet TestCase], time taken: 759ms, status: FINISHED
+2023-07-30 17:38:38,235 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/findByStatus TestCase]
+2023-07-30 17:38:38,236 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:38,680 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/findByStatus TestCase], time taken: 203ms, status: FINISHED
+2023-07-30 17:38:38,682 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/findByTags TestCase]
+2023-07-30 17:38:38,682 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:39,069 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/findByTags TestCase], time taken: 165ms, status: FINISHED
+2023-07-30 17:38:39,070 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/pet/{petId} TestCase]
+2023-07-30 17:38:39,071 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:39,462 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
+2023-07-30 17:38:39,908 INFO  [SoapUITestCaseRunner] running step [Request 1 2]
+2023-07-30 17:38:40,321 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/pet/{petId} TestCase], time taken: 578ms, status: FINISHED
+2023-07-30 17:38:40,323 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/store/order TestCase]
+2023-07-30 17:38:40,324 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:40,727 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/store/order TestCase], time taken: 204ms, status: FINISHED
+2023-07-30 17:38:40,728 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/store/order/{orderId} TestCase]
+2023-07-30 17:38:40,729 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:41,260 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
+2023-07-30 17:38:41,675 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/store/order/{orderId} TestCase], time taken: 406ms, status: FINISHED
+2023-07-30 17:38:41,678 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/store/inventory TestCase]
+2023-07-30 17:38:41,679 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:42,169 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/store/inventory TestCase], time taken: 204ms, status: FINISHED
+2023-07-30 17:38:42,170 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/createWithArray TestCase]
+2023-07-30 17:38:42,171 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:42,674 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/createWithArray TestCase], time taken: 308ms, status: FINISHED
+2023-07-30 17:38:42,676 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/createWithList TestCase]
+2023-07-30 17:38:42,677 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:43,081 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/createWithList TestCase], time taken: 203ms, status: FINISHED
+2023-07-30 17:38:43,083 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/{username} TestCase]
+2023-07-30 17:38:43,083 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:43,407 INFO  [SoapUITestCaseRunner] running step [Request 1 1]
+2023-07-30 17:38:43,799 INFO  [SoapUITestCaseRunner] running step [Request 1 2]
+2023-07-30 17:38:44,236 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/{username} TestCase], time taken: 576ms, status: FINISHED
+2023-07-30 17:38:44,241 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/login TestCase]
+2023-07-30 17:38:44,241 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:44,837 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/login TestCase], time taken: 318ms, status: FINISHED
+2023-07-30 17:38:44,839 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user/logout TestCase]
+2023-07-30 17:38:44,839 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:45,353 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user/logout TestCase], time taken: 198ms, status: FINISHED
+2023-07-30 17:38:45,356 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [/user TestCase]
+2023-07-30 17:38:45,357 INFO  [SoapUITestCaseRunner] running step [Request 1]
+2023-07-30 17:38:45,848 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [/user TestCase], time taken: 193ms, status: FINISHED
+2023-07-30 17:38:45,850 INFO  [SoapUITestCaseRunner] Project [PetStore] finished with status [FINISHED] in 10779ms
+2023-07-30 17:38:45,886 WARN  [Tools] Could not delete temporary directory C:\Users\User\AppData\Local\Temp\aa0e76b6-9781-48c8-aa94-e1ae3ada3eb4
+2023-07-30 17:38:45,886 WARN  [Tools] Could not delete temporary directory C:\Users\User\AppData\Local\Temp\e9958253-7794-41a7-8e34-8b0ced51a815
