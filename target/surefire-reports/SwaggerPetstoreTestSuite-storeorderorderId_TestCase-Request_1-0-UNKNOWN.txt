@@ -1,0 +1,41 @@
+Status: UNKNOWN
+Time Taken: 254
+Size: 53
+Timestamp: Sun Jul 30 16:51:44 CEST 2023
+TestStep: Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://petstore.swagger.io
+Method: GET
+StatusCode: 404
+URL: https://petstore.swagger.io:443/v2/store/order/9223372036854284017
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [petstore.swagger.io, petstore.swagger.io]
+Accept-Encoding: [gzip,deflate]
+
+GET https://petstore.swagger.io:443/v2/store/order/9223372036854284017 HTTP/1.1
+Host: petstore.swagger.io
+Accept-Encoding: gzip,deflate
+Host: petstore.swagger.io
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Server: [Jetty(9.2.9.v20150224)]
+Access-Control-Allow-Origin: [*]
+Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
+Connection: [keep-alive]
+#status#: [HTTP/1.1 404 Not Found]
+Date: [Sun, 30 Jul 2023 14:51:44 GMT]
+Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
+Content-Type: [application/json]
+
+{"code":1,"type":"error","message":"Order not found"}

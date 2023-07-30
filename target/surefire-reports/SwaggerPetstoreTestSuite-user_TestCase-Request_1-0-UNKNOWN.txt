@@ -1,0 +1,47 @@
+Status: UNKNOWN
+Time Taken: 148
+Size: 102
+Timestamp: Sun Jul 30 16:51:49 CEST 2023
+TestStep: Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://petstore.swagger.io
+Method: GET
+StatusCode: 405
+URL: https://petstore.swagger.io:443/v2/user
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [petstore.swagger.io, petstore.swagger.io]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [188]
+Content-Type: [application/json]
+
+GET https://petstore.swagger.io:443/v2/user HTTP/1.1
+Host: petstore.swagger.io
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 188
+Host: petstore.swagger.io
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [Jetty(9.2.9.v20150224)]
+Access-Control-Allow-Origin: [*]
+Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
+Connection: [keep-alive]
+#status#: [HTTP/1.1 405 Method Not Allowed]
+Content-Length: [102]
+Date: [Sun, 30 Jul 2023 14:51:50 GMT]
+Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
+Content-Type: [application/xml]
+
+<apiResponse>
+   <type>unknown</type>
+</apiResponse>

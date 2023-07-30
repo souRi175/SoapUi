@@ -1,0 +1,48 @@
+Status: UNKNOWN
+Time Taken: 4744
+Size: 181
+Timestamp: Sun Jul 30 16:50:38 CEST 2023
+TestStep: Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://petstore.swagger.io
+Method: GET
+StatusCode: 404
+URL: https://petstore.swagger.io:443/v2/pet//uploadImage
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [petstore.swagger.io, petstore.swagger.io]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+Content-Type: [application/json]
+
+GET https://petstore.swagger.io:443/v2/pet//uploadImage HTTP/1.1
+Host: petstore.swagger.io
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 0
+Host: petstore.swagger.io
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [Jetty(9.2.9.v20150224)]
+Access-Control-Allow-Origin: [*]
+Access-Control-Allow-Methods: [GET, POST, DELETE, PUT]
+Connection: [keep-alive]
+#status#: [HTTP/1.1 404 Not Found]
+Content-Length: [181]
+Date: [Sun, 30 Jul 2023 14:50:45 GMT]
+Access-Control-Allow-Headers: [Content-Type, api_key, Authorization]
+Content-Type: [application/xml]
+
+<apiResponse>
+   <message>null for uri: http://petstore.swagger.io/v2/pet//uploadImage</message>
+   <type>unknown</type>
+</apiResponse>
